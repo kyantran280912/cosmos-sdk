@@ -67,3 +67,45 @@ debug_container.log
 /x/genutil/data/priv_validator_state.json
 /.envrc
 /.env
+
+# 🔐 Additional secrets & credentials
+*.pem
+*.key
+secrets/
+.secrets/
+credentials.json
+service-account*.json
+
+# 🔧 Go binaries & debug
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+__debug_bin*
+
+# 📦 Package managers
+node_modules/
+.pnpm-store/
+
+# 🗄️ Temporary & cache
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+.cache/
+
+# 🤖 AI/IDE tools
+.claude/
+.cursor/
+.aider*
+.copilot/
+
+# 📊 Profiling
+*.prof
+*.pprof
+cpu.out
+mem.out
+trace.out
