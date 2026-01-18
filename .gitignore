@@ -102,8 +102,6 @@ temp/
 .cursor/
 .aider*
 .copilot/
-_bmad/
-
 # 📊 Profiling
 *.prof
 *.pprof
